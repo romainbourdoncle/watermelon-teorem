@@ -14,9 +14,11 @@ If you are using Windows, you can simply execute the provided .exe file to run t
 If you are using macOS, you need to run the code via the terminal. Here are the steps to do so:
 1. Open the terminal and navigate to the folder containing the script.
 2. Install required packages:
-```pip install matplotlib numpy```
+```pip install matplotlib
+pip install numpy
+```
 3. Run the script:
-python tracer_cercle4.py
+```python tracer_cercle4.py```
 
 **Contributing**
 This project is part of the larger CSEN | GT3 initiative. Contributions are welcome, especially for educational purposes. For major changes, please open an issue first to discuss what you would like to change.
