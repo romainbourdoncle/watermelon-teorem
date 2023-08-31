@@ -1,4 +1,0 @@
-tracer_cercle1 is in b&w and static.
-tracer_cecle2 addsalternately color-coded regions for enhanced visualization. Still static.
-tracer_cercle3 simulates GeoGebra: the origin of intersecting lines (P) is movable.
-tracer_cercle4 adds the center O and labels for the endpoints of the arcs (A1...A8).
