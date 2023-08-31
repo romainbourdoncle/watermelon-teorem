@@ -15,8 +15,7 @@ If you are using macOS, you need to run the code via the terminal. Here are the 
 1. Open the terminal and navigate to the folder containing the script.
 2. Install required packages:
 ```pip install matplotlib
-pip install numpy
-```
+pip install numpy```
 3. Run the script:
 ```python tracer_cercle4.py```
 
