@@ -8,7 +8,7 @@ This Python application is part of the CSEN | GT3 initiative aimed at creating a
 
 **Instructions for Running the Application**
 **For Windows Users**
-If you are using Windows, you can simply execute the provided .exe file to run the application.
+If you are using Windows, you can simply download then execute the provided .exe file to run the application.
 
 **For macOS Users**
 If you are using macOS, you need to run the code via the terminal. Here are the steps to do so:
