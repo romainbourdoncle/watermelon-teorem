@@ -14,7 +14,7 @@ This Python application is part of the CSEN | GT3 initiative aimed at creating a
 If you are using Windows, you can simply download then execute the provided .exe file to run the application. [Download the App](https://github.com/romainbourdoncle/watermelon-teorem/releases/download/v1.0.0/tracer_cercle4.exe)
 
 **For macOS Users**
-If you are using macOS, you need to run the code via the terminal. Please check the file named *tracer_cercle4/* in the `src/` folder for source code. Here are the steps to do so:
+If you are using macOS, you need to run the code via the terminal. Please check the file named *tracer_cercle4* in the **src** folder for source code. Here are the steps to do so:
 1. Open the terminal and navigate to the folder containing the script.
 2. Install required packages:
 ```
