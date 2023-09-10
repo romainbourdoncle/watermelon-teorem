@@ -28,7 +28,6 @@ pip install matplotlib pip numpy
 ```
 python tracer_cercle4.py
 ```
-
 **Contributing**
 This project is part of the larger CSEN | GT3 initiative. Contributions are welcome, especially for educational purposes. For major changes, please open an issue first to discuss what you would like to change.
 
