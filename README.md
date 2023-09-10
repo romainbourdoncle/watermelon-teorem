@@ -28,6 +28,8 @@ pip install matplotlib pip numpy
 ```
 python tracer_cercle4.py
 ```
+### NEW
+[Download the App (macOS version)](https://github.com/romainbourdoncle/watermelon-teorem/releases/download/v1.0.2/macOS_tracer_cercle4)
 
 **Contributing**
 This project is part of the larger CSEN | GT3 initiative. Contributions are welcome, especially for educational purposes. For major changes, please open an issue first to discuss what you would like to change.
