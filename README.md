@@ -11,7 +11,7 @@ This Python application is part of the CSEN | GT3 initiative aimed at creating a
 
 **Instructions for Running the Application**
 
->NEW Une version HTML du projet, intitulée `tracer_cercle4_JS.html`, est désormais disponible dans le sous-dossier `executable/HTML_version` pour une utilisation directement dans un navigateur web. _A HTML version of the project, titled `tracer_cercle4_JS.html`, is now available in the sub-folder `executable/HTML_version` for direct use in a web browser.
+>NEW Une version HTML du projet, intitulée `tracer_cercle4_JS.html`, est désormais disponible dans le sous-dossier `executable/HTML_version` pour une utilisation directement dans un navigateur web. _A HTML version of the project, titled `tracer_cercle4_JS.html`, is now available in the sub-folder `executable/HTML_version` for direct use in a web browser._
 
 
 **For Windows Users**
