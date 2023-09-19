@@ -10,7 +10,9 @@ An interactive Python app developed to accompany the resolution of a math proble
 This Python application is part of the CSEN | GT3 initiative aimed at creating a comprehensive database of mathematical problems. It serves as an interactive educational tool to explore a specific geometry problem involving area constancy in a circle divided by rays from an interior movable point. _To move point P, double-click the desired location._
 
 **Instructions for Running the Application**
+``` 
 NEW Une version HTML du projet, intitulée `tracer_cercle4_JS.html`, est désormais disponible dans le sous-dossier `executable/HTML_version` pour une utilisation directement dans un navigateur web. _A HTML version of the project, titled `tracer_cercle4_JS.html`, is now available in the sub-folder `executable/HTML_version` for direct use in a web browser.
+``` 
 
 **For Windows Users**
 If you are using Windows, you can simply download then execute the provided .exe file to run the application.
