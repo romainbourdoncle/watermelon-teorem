@@ -6,7 +6,7 @@ A SVG dynamic viewer developed to accompany the resolution of a math problem tha
 **Description**
 This Python application is part of the CSEN | GT3 initiative aimed at creating a comprehensive database of mathematical problems. It serves as an interactive educational tool to explore a specific geometry problem involving area constancy in a circle divided by rays from an interior movable point. _To move point P, double-click the desired location._
 
-Web app: [https://romainbourdoncle.github.io/watermelon-teorem/]5https://romainbourdoncle.github.io/watermelon-teorem/)
+Web app: [https://romainbourdoncle.github.io/watermelon-teorem/](https://romainbourdoncle.github.io/watermelon-teorem/)
 ## Instructions for Running the Application
 
 **For Windows Users**
