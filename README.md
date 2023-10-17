@@ -3,12 +3,12 @@ An interactive Python app developed to accompany the resolution of a math proble
 
 ![app_screenshot](./docs/capture.png)
 
-## Dynamic Geometry Exploration with Matplotlib**
+## Dynamic Geometry Exploration with Matplotlib
 
 **Description**
 This Python application is part of the CSEN | GT3 initiative aimed at creating a comprehensive database of mathematical problems. It serves as an interactive educational tool to explore a specific geometry problem involving area constancy in a circle divided by rays from an interior movable point. _To move point P, double-click the desired location._
 
-## Instructions for Running the Application**
+## Instructions for Running the Application
 
 **For Windows Users**
 If you are using Windows, you can simply download then execute the provided .exe file to run the application.
