@@ -4,7 +4,7 @@ Un visualiseur dynamique développé pour accompagner la résolution d'un probl�
 ![app_screenshot](./docs/capture.png)
 
 ## Description
-Cette application Python fait partie de l'initiative CSEN | GT3 visant à créer une base de données de problèmes mathématiques à destination des enseignants. C'est un outil pédagogique interactif pour explorer un problème de géométrie spécifique concernant la constance de la surface d'un cercle divisé par des lignes de coupes partant d'un point intérieur mobile. *Pour déplacer le point P, double-cliquez à l'endroit souhaité.*
+Cette application Python fait partie de l'initiative CSEN | GT3 visant à créer une base de données de problèmes mathématiques à destination des enseignants. C'est un outil pédagogique interactif pour explorer un problème de géométrie spécifique concernant la constance de la surface dans un cercle divisé par des lignes de coupes partant d'un point intérieur mobile. *Pour déplacer le point P, double-cliquez à l'endroit souhaité.*
 
 Web app : [https://romainbourdoncle.github.io/watermelon-teorem/](https://romainbourdoncle.github.io/watermelon-teorem/)
 _Ne prend actuellement pas en charge les appareils mobiles. Utiliser un ordinateur de bureau ou portable_
