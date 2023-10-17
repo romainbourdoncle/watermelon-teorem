@@ -1,5 +1,6 @@
 # watermelon-teorem
 [Cliquez ici pour voir ce README en français](README_FR.md)
+
 A dynamic viewer developed to accompany the resolution of a math problem that is part of a wider pedagogical projet. The application uses Matplotlib to allow dynamic exploration of area constancy in a circle divided by cutting lines from an interior movable point. 
 
 ![app_screenshot](./docs/capture.png)
