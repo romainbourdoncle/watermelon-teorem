@@ -35,8 +35,10 @@ svg {
         const centerY = 200;
 
         function drawCircleAndRegions(Px, Py) {
-            // clear SVG
-            svg.innerHTML = '';
+             // clear SVG
+while (svg.firstChild) {
+    svg.removeChild(svg.firstChild);
+}
 
             // draw main circle
             const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
