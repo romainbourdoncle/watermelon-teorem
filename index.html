@@ -4,43 +4,44 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
     <title>Circle with Regions | SVG dynamic Viewer</title>
     <style>
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0; 
-}
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0; 
+        }
 
-svg {
-    border: 1px solid black;
-    max-width: 80%;
-    box-sizing: border-box;
-}
+        svg {
+            border: 1px solid black;
+            max-width: 80%;
+            box-sizing: border-box;
+        }
 
-@media (min-width: 600px) {
-    svg {
-        margin: 3%;
-    }
-}
+        @media (min-width: 600px) {
+            svg {
+                margin: 3%;
+            }
+        }
     </style>
 </head>
 <body>
     <svg id="circleSVG" viewBox="0 0 400 400" role="img" aria-labelledby="titleID" aria-describedby="descID">
         <title id="titleID">Interactive Circle with Regions</title>
-        <desc id="descID">An SVG representation of a circle divided into regions. Click to interact and move the mobile point within the circle.</desc>
+        <desc id="descID">An SVG representation of a circle divided into regions. Click to interact and place a point within the circle.</desc>
     </svg>
     <script>
+    (function() {
         const svg = document.getElementById('circleSVG');
         const radius = 100;
         const centerX = 200;
         const centerY = 200;
 
         function drawCircleAndRegions(Px, Py) {
-             // clear SVG
-while (svg.firstChild) {
-    svg.removeChild(svg.firstChild);
-}
+            // clear SVG
+            while (svg.firstChild) {
+                svg.removeChild(svg.firstChild);
+            }
 
             // draw main circle
             const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
@@ -70,7 +71,7 @@ while (svg.firstChild) {
                 const offsetX = 20 * Math.cos(angle);
                 const offsetY = 20 * Math.sin(angle);
 
-                //labels
+                // labels
                 const labelVertex = document.createElementNS('http://www.w3.org/2000/svg', 'text');
                 labelVertex.setAttribute('x', x + offsetX);
                 labelVertex.setAttribute('y', y + offsetY);
@@ -80,7 +81,7 @@ while (svg.firstChild) {
                 labelVertex.textContent = 'A' + (divisions - i);
                 svg.appendChild(labelVertex);
 
-                //draw lines from point P to circle edge
+                // draw lines from point P to circle edge
                 const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
                 line.setAttribute('x1', Px);
                 line.setAttribute('y1', Py);
@@ -90,7 +91,7 @@ while (svg.firstChild) {
                 line.setAttribute('stroke-dasharray', '5,5');
                 svg.appendChild(line);
 
-                //draw filled regions
+                // draw filled regions
                 const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
                 const nextX = centerX + radius * Math.cos(angle + angleStep);
                 const nextY = centerY + radius * Math.sin(angle + angleStep);
@@ -106,7 +107,7 @@ while (svg.firstChild) {
                 svg.appendChild(path);
             }
 
-            //draw cross at center O
+            // draw cross at center O
             const horizontalLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
             horizontalLine.setAttribute('x1', centerX - 10);
             horizontalLine.setAttribute('y1', centerY);
@@ -125,7 +126,7 @@ while (svg.firstChild) {
             verticalLine.setAttribute('stroke-width', '2');
             svg.appendChild(verticalLine);
 
-            //label for center O
+            // label for center O
             const labelO = document.createElementNS('http://www.w3.org/2000/svg', 'text');
             labelO.setAttribute('x', centerX + 15);
             labelO.setAttribute('y', centerY + 5);
@@ -136,20 +137,21 @@ while (svg.firstChild) {
             svg.appendChild(labelO);
         }
 
-        //initial drawing
+        // initial drawing
         drawCircleAndRegions(centerX, centerY);
 
-        //handle click events
+        // handle click events
         svg.addEventListener('click', function(event) {
             const rect = svg.getBoundingClientRect();
-            const scale = rect.width / 400; // 400 is the original width of the viewBox
+            const scale = rect.width / 400; 
 
             const x = (event.clientX - rect.left) / scale;
             const y = (event.clientY - rect.top) / scale;
 
             drawCircleAndRegions(x, y);
         });
+
+    })();  
     </script>
 </body>
-
 </html>
