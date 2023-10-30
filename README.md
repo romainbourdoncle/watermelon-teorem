@@ -6,7 +6,7 @@ A dynamic viewer developed to accompany the resolution of a math problem that is
 ![app_screenshot](./docs/capture.png)
 
 **Description**
-This Python application is part of the CSEN | GT3 initiative aimed at creating a comprehensive database of mathematical problems. It serves as an interactive educational tool to explore a specific geometry problem involving area constancy in a circle divided by cutting lines from an interior movable point. _To move point P, double-click the desired location._
+This Python application is part of the CSEN | GT3 initiative aimed at creating a comprehensive database of mathematical problems. It serves as an interactive educational tool to explore a specific geometry problem involving area constancy in a circle divided by cutting lines from an interior movable point. <span style="color:red"> _To move point P, double-click the desired location._</span>
 
 Web app: [https://romainbourdoncle.github.io/watermelon-teorem/](https://romainbourdoncle.github.io/watermelon-teorem/) _Currently does not support mobile devices. We recommend using a desktop or laptop_.
 ## Instructions for Running the python app
