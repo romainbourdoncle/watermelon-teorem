@@ -1,5 +1,5 @@
 # théorème de la pastèque
-Un visualiseur dynamique développé pour accompagner la résolution d'un problème mathématique faisant partie d'un projet pédagogique plus large. L'application utilise Matplotlib pour permettre une exploration dynamique de la constance de la surface dans un cercle divisé par des rayons partant d'un point intérieur mobile.
+Un visualiseur dynamique développé pour accompagner la résolution d'un problème mathématique faisant partie d'un projet pédagogique plus large. L'application utilise Matplotlib pour permettre une exploration dynamique de la constance de la surface dans un cercle divisé par des traits de coupe partant d'un point intérieur mobile.
 
 ![app_screenshot](./docs/capture.png)
 
