@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.widgets import Cursor
 
-# Fonction pour redessiner le cercle et les régions colorées
+#fonction pour redessiner le cercle et les régions colorées
 def draw_circle_and_regions(Px, Py):
     plt.clf()
 
@@ -12,11 +12,11 @@ def draw_circle_and_regions(Px, Py):
     y1 = r * np.sin(theta)
     plt.plot(x1, y1, 'b')
 
-    # Ajout du centre du cercle O
+    #ajout du centre du cercle O
     plt.plot(0, 0, 'bo')
     plt.annotate('O', (0, 0), textcoords="offset points", xytext=(0,10), ha='center')
 
-    # Ajout du point P
+    #ajout du point P
     plt.plot(Px, Py, 'go')
     plt.annotate('P', (Px, Py), textcoords="offset points", xytext=(0,10), ha='center')
 
@@ -45,12 +45,12 @@ def draw_circle_and_regions(Px, Py):
     plt.gca().set_aspect('equal', adjustable='box')
     plt.draw()
 
-# Initialisation de la figure et du point P
+#initialisation de la figure et du point P
 fig, ax = plt.subplots()
 Px, Py = 2, 3
 draw_circle_and_regions(Px, Py)
 
-# Gestion de l'interaction
+#gestion de l'interaction
 def on_click(event):
     global Px, Py
     Px, Py = event.xdata, event.ydata
