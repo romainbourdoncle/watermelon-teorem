@@ -1,3 +1,5 @@
+
+[Click here to view this README](README_ENG.md)
 # théorème de la pastèque
 Un visualiseur dynamique conçu pour accompagner les élèves dans la résolution d'un problème de géométrie faisant partie d'un projet pédagogique plus large. A l'intérieur d'un cercle, les utilisateurs peuvent déplacer un point d'où partent des traits qui coupent le cercle en régions et observer comment cela affecte l'aire de ces régions.
 ![app_screenshot](./docs/capture.png)
