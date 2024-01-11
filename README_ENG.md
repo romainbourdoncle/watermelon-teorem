@@ -2,7 +2,9 @@
 
 [Cliquez ici pour voir ce README en Français](README.md)
 
-A dynamic viewer developed to help pupils solve a geometry problem that is part of a wider educational project. Inside a circle, users can move a point from which lines cut the circle into regions, and observe how this affects the area of these regions.
+A dynamic viewer developed to assist pupils in solving a geometry problem which is part of a wider educational project, [the GT3|CSEN Mathematical Problem Bank](https://www.problematheque-csen.fr/).
+
+A dynamic viewer developed to help pupils solve a geometry problem that is part of a wider educational project, the GT3|CSEN Mathematical Problem Bank. Inside a circle, users can move a point from which lines cut the circle into regions, and observe how this affects the area of these regions.
 
 ![app_screenshot](./docs/capture.png)
 
