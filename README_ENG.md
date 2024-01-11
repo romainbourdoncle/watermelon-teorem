@@ -1,5 +1,6 @@
 # watermelon-teorem
-[Cliquez ici pour voir ce README en français](README_FR.md)
+
+[Cliquez ici pour voir ce README en Français](README.md)
 
 A dynamic viewer developed to help pupils solve a geometry problem that is part of a wider educational project. Inside a circle, users can move a point from which lines cut the circle into regions, and observe how this affects the area of these regions.
 
