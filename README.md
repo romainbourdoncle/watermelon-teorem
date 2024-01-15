@@ -24,7 +24,7 @@ Si vous utilisez macOS, vous devez exécuter le code via le terminal. Veuillez c
 ```
 pip install matplotlib pip numpy
 ```
-4. Executez the script:
+4. Executez le script:
 ```
 python tracer_cercle4.py
 ```
