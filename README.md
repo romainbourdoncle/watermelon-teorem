@@ -7,7 +7,7 @@ Un visualiseur dynamique conçu pour accompagner les élèves dans la résolutio
 ## Description
 Pour déplacer le point d'où partent les traits de coupe, double-cliquez à l'endroit souhaité à l'intérieur du cercle.
 
-Web app : [https://romainbourdoncle.github.io/watermelon-teorem/](https://romainbourdoncle.github.io/watermelon-teorem/)
+**Version web :** [https://romainbourdoncle.github.io/watermelon-teorem/](https://romainbourdoncle.github.io/watermelon-teorem/)
 _Il y a des problèmes connus avec l'interactivité SVG sur Safari et iPhone. Pour une meilleure expérience, utiliser Chrome ou Firefox sur un ordinateur de bureau ou portable._
 
 ## Instructions pour exécuter l'application Python
