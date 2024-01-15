@@ -5,7 +5,7 @@ Un visualiseur dynamique conçu pour accompagner les élèves dans la résolutio
 ![app_screenshot](./docs/capture.png)
 
 ## Description
-Cette mini-app fait partie de l'initiative CSEN | GT3 mettant à disposition des enseignantes et enseignants une base de données collaborative de problèmes mathématiques. C'est un outil pédagogique interactif pour explorer la constance de la surface dans un cercle divisé par des lignes de coupes partant d'un point intérieur mobile. *Pour déplacer le point P, double-cliquez à l'endroit souhaité.*
+Cette mini-app fait partie de la  de la [problemathèque](https://www.problematheque-csen.fr/) mettant à disposition des enseignantes et enseignants une base de données collaborative de problèmes mathématiques. C'est un outil pédagogique interactif pour explorer la constance de la surface dans un cercle divisé par des lignes de coupes partant d'un point intérieur mobile. *Pour déplacer le point P, double-cliquez à l'endroit souhaité.*
 
 Web app : [https://romainbourdoncle.github.io/watermelon-teorem/](https://romainbourdoncle.github.io/watermelon-teorem/)
 _Il y a des problèmes connus avec l'interactivité SVG sur Safari et iPhone. Pour une meilleure expérience, utiliser Chrome ou Firefox sur un ordinateur de bureau ou portable._
