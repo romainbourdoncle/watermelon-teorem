@@ -29,7 +29,7 @@ pip install matplotlib pip numpy
 python tracer_cercle4.py
 ```
 **Contribuer**
-Ce projet fait partie de l'initiative du CSEN | GT3. Les contributions sont les bienvenues, surtout à des fins éducatives. Pour les changements majeurs, veuillez d'abord ouvrir un problème pour discuter de ce que vous souhaitez changer.
+Ce projet fait partie de l'initiative du CSEN | GT3. Les contributions sont les bienvenues, surtout à des fins éducatives. N'hésitez pas à proposer des variantes de ce problème, ou bien à partager votre retour d'expérience en classe en vous inscrivant : [**[https://www.problematheque-csen.fr/**](https://www.problematheque-csen.fr/)
 
 **Licence**
 Ce projet est sous licence CC BY-NC.
