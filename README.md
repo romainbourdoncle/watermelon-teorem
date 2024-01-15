@@ -8,7 +8,7 @@ Pour déplacer le point d'où partent les traits de coupe, double-cliquez à l'e
 
 **Version web :** [https://romainbourdoncle.github.io/watermelon-teorem/](https://romainbourdoncle.github.io/watermelon-teorem/)
 
-_Il y a des problèmes connus avec l'interactivité SVG sur Safari et iPhone. Plutôt utiliser Chrome ou Firefox sur un ordinateur de bureau ou portable._
+_Il y a des problèmes connus avec l'interactivité SVG sur Safari et iPhone. Plutôt utiliser Chrome ou Firefox sur un ordinateur de bureau ou portable pour la version web._
 
 ## Instructions pour exécuter l'application Python
 
